@@ -15,6 +15,7 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 import it.application.mobile.android.sleep.testingfinal.Weight.AddFragment;
+import it.application.mobile.android.sleep.testingfinal.Weight.ViewFragment;
 
 public class MenuFragment extends Fragment {
 
@@ -55,15 +56,14 @@ public class MenuFragment extends Fragment {
                     getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_view, new AddFragment()).commit();
                 }
                 else if(menu.get(position) == "View"){
-                    getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_view, new AddFragment()).commit();
+                    getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_view, new ViewFragment()).commit();
                 }
                 else if (menu.get(position) == "Theme"){
-                    getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_view, new AddFragment()).commit();
+                    getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_view, new ThemeFragment()).commit();
                 }
                 else if (menu.get(position) == "Load image from url"){
-                    getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_view, new AddFragment()).commit();
+                    getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_view, new LoadImageFragment()).commit();
                 }
-
             }
         });
     }

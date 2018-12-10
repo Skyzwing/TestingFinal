@@ -20,6 +20,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 public class WriteFileFragment extends Fragment {
+
     EditText fileName;
     EditText text;
     Button button;

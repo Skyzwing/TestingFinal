@@ -23,6 +23,7 @@ public class ReadFileFragment extends Fragment {
     private StringBuilder stringBuilder;
     private InputStreamReader inputStreamReader;
 
+
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

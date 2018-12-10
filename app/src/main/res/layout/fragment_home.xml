@@ -20,7 +20,6 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:hint="Ex. Skyzwing" />
-
     <Button
         android:id="@+id/button_name"
         android:layout_width="match_parent"

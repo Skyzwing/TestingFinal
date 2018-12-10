@@ -3,6 +3,7 @@ package it.application.mobile.android.sleep.testingfinal.Weight;
 import android.content.ContentValues;
 
 public class Weight {
+
     private int weight;
     private String date;
 

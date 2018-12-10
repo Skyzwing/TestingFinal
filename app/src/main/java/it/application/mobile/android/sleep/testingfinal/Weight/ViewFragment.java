@@ -16,8 +16,6 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 import it.application.mobile.android.sleep.testingfinal.R;
-import it.application.mobile.android.sleep.testingfinal.Weight.Weight;
-import it.application.mobile.android.sleep.testingfinal.Weight.WeightAdapter;
 
 public class ViewFragment extends Fragment {
 

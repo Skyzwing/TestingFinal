@@ -33,7 +33,6 @@ public class WeightAdapter extends ArrayAdapter<Weight> {
         view = LayoutInflater.from(context).inflate(R.layout.fragment_weight_item, parent, false);
         weight = view.findViewById(R.id.weight_item);
         date = view.findViewById(R.id.date_item);
-
         weight.setText(weights.get(position).getWeight());
         date.setText(weights.get(position).getDate());
         return view;

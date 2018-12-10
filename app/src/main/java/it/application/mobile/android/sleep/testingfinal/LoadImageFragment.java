@@ -14,6 +14,7 @@ import android.widget.ImageView;
 import com.squareup.picasso.Picasso;
 
 public class LoadImageFragment extends Fragment{
+
     private String url;
     private ImageView imageView;
     private EditText urlField;

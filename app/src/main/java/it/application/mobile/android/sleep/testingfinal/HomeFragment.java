@@ -15,6 +15,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class HomeFragment extends Fragment {
+
     private EditText name;
     private Button button;
 
